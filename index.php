@@ -524,7 +524,7 @@
 				</div>					
 
 
-				<?php } else if (in_category( array( 'Films', 'Movies', 'Video', 'Videos'))) { ?>
+				<?php } else if (in_category( array( 'Films', 'Photographs', 'Slideshow', 'Movies', 'Video', 'Videos'))) { ?>
 	
 				<div class="row-wrapper">
 					<div class="line lastrow">
