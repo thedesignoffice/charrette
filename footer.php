@@ -8,7 +8,7 @@
 			<ul>
 			<div style="clear: left; padding: 20px 0;" class="lucida">
 				<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/charrette.png">
-				<a href="http://www.charrette.ws" target=_new style="border: 0;">Charrette Wordpress Theme v0.91</a>  <a href="http://thedesignoffice.org" target=_new style="padding-left: 20px; border: 0;">Project of The Design Office, Providence, R.I.</a>
+				<a href="http://www.charrette.ws" target=_new style="border: 0;">Charrette Wordpress Theme</a>  <a href="http://thedesignoffice.org" target=_new style="padding-left: 20px; border: 0;">Project of The Design Office, Providence, R.I.</a>
 			</div>
 	</div>
 </div>
