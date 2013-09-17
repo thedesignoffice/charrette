@@ -4,6 +4,8 @@ Theme URI: http://charrette.ws
 Description: A Wordpress theme for the classroom. Targeted to design studio courses and workshops.
 Author: John Caserta, The Design Office
 Version: 1.0
+License URI: http://opensource.org/licenses/MIT
+Tags: light, red, one-column, two-columns, right-sidebar, flexible-width, custom-menu
 .
 Licensed for use under the MIT License.
 http://opensource.org/licenses/MIT
@@ -336,7 +338,7 @@ h1 span {
 	font-family: "charretteregular";
 	border-right: dotted 1px #aaa;
 	padding-right: 14px;
-	margin-right: 7px;
+	margin-right: 14px;
 	font-weight: normal;
 	-ie-text-shadow: 0px 1px 4px white;
 	-moz-text-shadow: 0px 1px 4px white;
