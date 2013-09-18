@@ -65,9 +65,9 @@
 
 			<?php	} else { 
 				echo'<h1><span>f</span>No posts yet from '; 
-	     		 echo $user_info-> nickname;
-				echo'</h1><p>A post is needed to see the avatar, bio and more</p><p style="font-size: 1000px; line-height: 90%" class="grey  mpix">x</p>'; 
-				echo '<style>.avatarbio, .filtercontrols, .absences { display: none; }</style>';
+	     		 echo $user_info->nickname;
+//				echo'</h1><p>A post is needed to see the avatar, bio and more</p><p style="font-size: 1000px; line-height: 90%" class="grey  mpix">x</p>'; 
+//				echo '<style>.avatarbio, .filtercontrols, .absences { display: none; }</style>';
 				} 
 			?>
 			
@@ -346,14 +346,14 @@ echo '</a></div></div>';
 			
 				<li class="widget avatarbio">
 					<h2 class="widgettitle">&nbsp;</h2>
-				<div><?php echo get_avatar( get_the_author_meta('ID'), $size = '380' ); 
-   ?></div><p><?php the_author_meta('description') ?></p><p><a href="<?php the_author_meta('url') ?>"><?php the_author_meta('url') ?></a></p>
+				<div><?php echo get_avatar( $curauth->ID, $size = '380' ); 
+   ?></div><p><?php echo $curauth->description; ?></p><p><a href="<?php echo $curauth->user_url; ?>"><?php echo $curauth->user_url; ?></a></p>
 
    	
    		<?php
 			if( is_user_logged_in() ) {
 				    echo '<p><a title="Contact by email" alt="Email" class="mpix medlarge nounderline shadowlight" href="mailto:';
-				    echo the_author_meta('email');
+				    echo $curauth->user_email;
 				    echo '">m</a></p>';
 			}
 		?>
@@ -431,5 +431,3 @@ echo '</a></div></div>';
 <?php get_footer(); ?>
 </body>
 </html>
-
-					
