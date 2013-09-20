@@ -378,7 +378,7 @@ echo '</a></div></div>';
 									$terms = strip_tags( get_the_term_list($post->ID, 'status', '', ' ', '') );
 									$termsstrip = strtolower($terms);
 									
-									if ($post->post_author == $authorid) {
+									if ($post->post_author == $curauth->ID) {
 
 										echo '<li id="', the_ID(), '" class="', $termsstrip , '">';
 										echo '<span class="pictogramfont">';
