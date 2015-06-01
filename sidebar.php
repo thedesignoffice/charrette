@@ -4,12 +4,12 @@
 						<?php
 							//displays all users with their avatar and their posts (titles)
 							$blogusers = get_users_of_blog();
-				
+
 							if ($blogusers) {
 							  foreach ($blogusers as $bloguser) {
 								$user = get_userdata($bloguser->user_id);
-					
-								echo '<a href="?author=' . $user->ID . '"';
+
+								echo '<a href="/?author=' . $user->ID . '"';
 								echo 'title="' . $user->nickname . '">';
 								echo get_avatar( $user->ID, 60 );
 
