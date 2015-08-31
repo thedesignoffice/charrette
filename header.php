@@ -26,7 +26,7 @@
 <script type="text/javascript">
   $(document).ready(function() {
    		$("#searchid").click(function () {
-			$("#search-box").show(150);
+			$("#search-box").toggleClass("hide");
 			$("#searchid").addClass("spot");
 
 		});      

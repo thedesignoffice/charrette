@@ -270,7 +270,7 @@ input[type="search"] {
 h1 {
 	font-size: 36px;
 	font-weight: bold;
-	line-height: 48px;
+	line-height: 133%; 
 	color: black;
 	-webkit-text-shadow: 0px 0px 4px white;
 	text-shadow: 0px 0px 4px white;
@@ -1107,6 +1107,13 @@ cs.thedesignoffice.org
 	margin-bottom: 4px;  
 	margin-right: 6px;  
 }
+
+.cs-content { margin-top: 10px;}
+
+#content .cs-thumbs ul.gallery-item  {
+	margin-bottom: 6px;
+}
+
 
  .cs-thumbs ul.gallery-item li {
 	/* li controls spacing between thumbnails - you may need to override default ul li */
