@@ -1,9 +1,9 @@
-/*   
+/*
 Theme Name: Charrette Wordpress Theme
 Theme URI: http://charrette.ws
 Description: A Wordpress theme for the classroom. Targeted to design studio courses and workshops.
 Author: John Caserta, The Design Office
-Version: 1.0
+Version: 1.05
 License URI: http://opensource.org/licenses/MIT
 Tags: light, red, one-column, two-columns, right-sidebar, flexible-width, custom-menu
 .
@@ -13,7 +13,7 @@ Copyright 2013, The Design Office, Providence, R.I.
 
 .
 */
-/* Reset styles from http://meyerweb.com/eric/tools/css/reset/ 
+/* Reset styles from http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -28,8 +28,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -43,7 +43,7 @@ form, input {
 	dislay: inline-block;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -69,7 +69,7 @@ table {
 
 /*
 	Load pictograms. Charrette Regular is a free subset of Modern Pictograms Pro licensed under the GNU General Public License, version 3 (GPL-3.0)
- for use in Charrette.  http://modernpictograms.com 
+ for use in Charrette.  http://modernpictograms.com
 */
 
 @font-face {
@@ -91,7 +91,7 @@ table {
 
 div#wpadminbar { display: none;}
 
-html { 
+html {
 }
 body {
 	font-family: 'Karla', "Helvetica Neue", helvetica, arial, verdana;
@@ -124,7 +124,7 @@ ol li, .comment ol li {
 	padding-left:30px;
 }
 ul li { padding-left: 30px; }
-ul.bulleted li { 
+ul.bulleted li {
 	list-style-type: disc;
 	list-style-position: inside;
 }
@@ -147,7 +147,7 @@ iframe.zoom100 { width: 100%; height: 550px;}
 figcaption, .agate, #content p.agate, .comment-meta {
 	font-family: "Lucida Grande", "Lucida Sans", verdana, sans-serif;
 	font-size: 11px;
-	color: #666; 
+	color: #666;
 	font-weight: normal;
 	word-spacing: 0;
 	font-style: normal;
@@ -156,7 +156,7 @@ figcaption, .agate, #content p.agate, .comment-meta {
 
 /* **************** Blocks ***************** */
 .masthead {
-	color: black; text-transform: uppercase; font-weight: bold; border: 0px; font-size: 30px; margin: 6px 20px 0 0; padding: 0 22px; 
+	color: black; text-transform: uppercase; font-weight: bold; border: 0px; font-size: 30px; margin: 6px 20px 0 0; padding: 0 22px;
 height: 30px;
 }
 .masthead a, .masthead_lower a span { display: inline-block; text-transform: capitalize; margin-left: 6px; }
@@ -172,7 +172,7 @@ height: 30px;
 	-moz-box-shadow: 0 1px #fff;
 	-webkit-box-shadow: 0 1px #fff;
 	box-shadow: 0 1px #fff;
-	padding: 2px 22px; 
+	padding: 2px 22px;
 	-moz-text-shadow: 1px 1px 6px #efefef;
 	-webkit-text-shadow: 1px 1px 6px #efefef;
 	text-shadow: 1px 1px 6px #efefef;
@@ -181,7 +181,7 @@ height: 30px;
 .search a:link, .icons a:visited {
 }
 .search a:hover {
-	color: #ba3d0f; 
+	color: #ba3d0f;
 	opacity: 1;
 }
 #search-box{
@@ -196,7 +196,7 @@ height: 30px;
     font-weight: bold;
     -webkit-transition: .5s all;
 }
-#search-box:focus { 
+#search-box:focus {
 	outline: none;
 	line-height: 100px;
 	font-size: 52px;
@@ -212,17 +212,17 @@ input[type="search"] {
 	height: 34px;  min-width: 700px;
 }
 .filternav ul li, .homework h2 ul li, #sidebar2 li { margin-left: 0; padding-left: 0; }
-.filternav ul li a { color: #bbb; background: none; 	
+.filternav ul li a { color: #bbb; background: none;
 
  }
-.filternav ul li a:hover { 	color: #888;  
+.filternav ul li a:hover { 	color: #888;
 	-moz-text-shadow: 0 0  8px #fff;
 	-webkit-text-shadow: 0 0  8px #fff;
 	text-shadow: 0 0 8px #fff;
 }
 
 .filternav li { display: inline-block; margin-right: 26px; line-height: 20px;}
-.filternav .active, .filternav a:hover.active { color: black; cursor: s-resize; 
+.filternav .active, .filternav a:hover.active { color: black; cursor: s-resize;
 	-moz-text-shadow: 1px 1px 4px #fff;
 	-webkit-text-shadow: 1px 1px 4px #fff;
 	text-shadow: 1px 1px 4px #fff;
@@ -231,8 +231,8 @@ input[type="search"] {
 /* View controls */
 
 .filtercontrols { float: right; margin: 14px 14px 0 0; color: #bbb;}
-.filtercontrols ul li { text-align:center; 
-	width: 40px; height: 26px; 
+.filtercontrols ul li { text-align:center;
+	width: 40px; height: 26px;
 	display: inline-block;
 	border: 1px solid #ddd;
 	padding-left:0;
@@ -241,8 +241,8 @@ input[type="search"] {
 	font-family: "charretteregular";
 	font-size: 20px;
 }
-.filtercontrols ul li:hover { 
-	cursor: pointer; 
+.filtercontrols ul li:hover {
+	cursor: pointer;
 	background: #bbb;
 	color: #666;
 	-moz-text-shadow: 0 0  2px #eee;
@@ -270,7 +270,7 @@ input[type="search"] {
 h1 {
 	font-size: 36px;
 	font-weight: bold;
-	line-height: 133%; 
+	line-height: 133%;
 	color: black;
 	-webkit-text-shadow: 0px 0px 4px white;
 	text-shadow: 0px 0px 4px white;
@@ -286,11 +286,11 @@ h1.article {
 	font-size: 18px;
 	font-weight: bold;
 	line-height: 30px;
-	float: left; 
+	float: left;
 }
 .elseblock h2:after {
 	padding-right: 8px;
-	content: "  "; 
+	content: "  ";
 }
 h3, #comment {
 	font-family: "karla";
@@ -366,6 +366,7 @@ h2 a span, .homework h2 a span { 	text-align: center; 	width: 20px;
 }
 .pictogramfont, .mpix {
 	font-family: "charretteregular";
+	-webkit-font-smoothing: antialiased;
 }
 
 .nounderline, a .nounderline a.nounderline, p a:link.nounderline {
@@ -380,7 +381,7 @@ h2 a span, .homework h2 a span { 	text-align: center; 	width: 20px;
 	text-shadow: 0 0 8px rgba(0,0,0,.2);
 
 }
-.nowrap { 
+.nowrap {
 	white-space: nowrap;
 }
 
@@ -453,7 +454,7 @@ h2 a span, .homework h2 a span { 	text-align: center; 	width: 20px;
 }
 ul.sections a:hover li { color: #BA3D0F; }
 
-ul.sections li:before 
+ul.sections li:before
 {
     content: attr(data-icon);
     font-size: 18px;
@@ -463,9 +464,9 @@ ul.sections li:before
 	font-family: "charretteregular";
 	 -mozilla-font-smoothing: antialiased;
 	 -webkit-font-smoothing: antialiased;
-	 font-smoothing: antialiased; 
+	 font-smoothing: antialiased;
     /* other styles here */
-}						
+}
 ul.children { margin: 6px 0 0 20px }
 #sidebar1b li ul.children li:before { font-family: 'charretteregular'; color: grey; content: '> '; }
 #sidebar1b li ul.children li:last-child { border-bottom: 0px solid transparent; padding-bottom: 14px; }
@@ -489,9 +490,9 @@ ul.children { margin: 6px 0 0 20px }
 		display: inline;
 		margin: 0;
 }
-#sidebar2, #sidebar2 li { 
-	  -moz-box-sizing: border-box; 
-	  -webkit-box-sizing: border-box; 
+#sidebar2, #sidebar2 li {
+	  -moz-box-sizing: border-box;
+	  -webkit-box-sizing: border-box;
 	  box-sizing: border-box;
 }
 #sidebar2>li {
@@ -544,7 +545,7 @@ h3#comments  {
 }
 .comment-meta {
 	float: right;
-	
+
 }
 #recentcomments {
 	list-style-type: decimal;
@@ -575,7 +576,7 @@ input[type="submit"] {
 }
 input[type="submit"]:hover {
 	background: #666;
-	cursor: pointer; 
+	cursor: pointer;
 }
 .reply a {
 	font-family: "Lucida Grande", "Lucida Sans", verdana, sans-serif;
@@ -624,7 +625,7 @@ a:active {
 	-o-transition: background 0.5s ease;
 	transition: background 0.5s ease;   */
 }
-#sidebar1b a { color: #666; 
+#sidebar1b a { color: #666;
 }
 #sidebar1b a:hover { 	color: #ba3d0f;
 }
@@ -750,12 +751,12 @@ figure, .marginbottom26 {
 	box-shadow: 0px 2px 2px #ddd; */
 }
 .avatarbio div {
-	width: 100%; 
+	width: 100%;
 }
 .avatarbio img {
 	display: block;
 	border-radius: 50%;
-	padding: 0; 
+	padding: 0;
 	width: 98%;
 	height: auto;
 	overflow: hidden;
@@ -764,19 +765,24 @@ figure, .marginbottom26 {
 }
 .avatarbio p { text-align: center; margin: 16px 0;}
 
-#classroom ul li a { 	width: 22%; height: auto; 
+#classroom ul li a { 	width: 22%; height: auto;
 	display: inline-block; padding: 0; margin: 0;
 	margin-right: 5px; }
-#classroom ul li a:hover { 	opacity: .8; 
+#classroom ul li a:hover { 	opacity: .8;
  }
-#classroom ul li a img {
-	border-radius: 35px;
-	padding: 0; margin: 0;
-	width: 100%;
-	height: auto;
+#classroom ul li a img,  .usertable .imgwrap {
+	border-radius: 50%;
+	 margin: 0;
+	width: 40px;
+	height: 40px;
 	overflow: hidden;
 	box-shadow: 0px 1px 6px #666;
 }
+.usertable .imgwrap img { width: 40px; height: auto; }
+.usertable { width: 100%; }
+.usertable td { width: 100%; border-top: 1px solid #ccc; padding: 6px; }
+.usertable td { vertical-align: middle; color: #666; }
+.usertable td:first-child { width: 80px; }
 .loggedin {	margin: 4px 0 0 0;  height: 48px; }
 .loggedin a {	 height: 50px; opacity: .35; -webkit-transition: .5s opacity; }
 .loggedin a:hover {	opacity: .9;  background :none; }
@@ -825,20 +831,20 @@ figure, .marginbottom26 {
 .shadow {
 	-moz-box-shadow: 2px 4px 6px #999;
 	-webkit-box-shadow: 2px 4px 6px #999;
-	box-shadow: 2px 4px 6px #999; 
+	box-shadow: 2px 4px 6px #999;
 }
 #outline table {
 	margin: 8px 0px;
 }
 #outline table tr td	{
-	border-top: solid 1px #ddd; 
-	border-bottom: solid 1px #ddd; 
+	border-top: solid 1px #ddd;
+	border-bottom: solid 1px #ddd;
 	padding: 4px 4px 4px 1px;
 	color: #888;
 }
 .index table tr td.bottom	{
-	border-top: 0; 
-	border-bottom: 0; 
+	border-top: 0;
+	border-bottom: 0;
 	padding: 4px;
 	padding-top: 8px;
 	padding-left: 4px;
@@ -863,7 +869,7 @@ figure, .marginbottom26 {
 }
 
 #content .resultsfooter3 {
-	border-bottom: solid 1px #aaa; 
+	border-bottom: solid 1px #aaa;
 	padding: 0 0 10px;
 	margin-bottom: 14px;
 }
@@ -871,7 +877,7 @@ figure, .marginbottom26 {
 	color: #000;
 	padding-left: 1px;
 }
- 
+
 .index p, .hiddendrawer ul, #content p, #content ol, #content ul, .index ol, .elseblock ul,  .delicious-link,  .delicious-extended {
  	font-family: 'karla';
  	font-size: 18px;
@@ -910,7 +916,7 @@ strong {
 	margin: 0px;
 	text-indent: 20px;
  }
- 
+
  .delicious-post p {
  	display: inline;
  	font-size: 18px;
@@ -935,7 +941,7 @@ strong {
 /* index results
 ---------------------------------------------- */
 
-#peopleid { display: none; }	
+#peopleid { display: none; }
 #outline h2, #people h2 {
 	font-size: 30px;
 	line-height: 38px;
@@ -986,7 +992,7 @@ a.FlatFile, .resultsfooter3 span, .homework span, .lucida span, .pictograms {
 	-webkit-font-smoothing: antialiased;
 	/* -moz-font-smoothing: antialiased; - No longer available in FF */
 	font-smoothing: antialiased;
-	
+
 }
 .commentlist .says { display: none;}
 .other {
@@ -1085,18 +1091,18 @@ cs.thedesignoffice.org
 
 /* Example 2   -- Floats thumbs on right, hides description
 -------------------------------------------------------------------------------*/
- .cs-main-image a:hover { 
+ .cs-main-image a:hover {
 	/* Rollover of main image. A slight hover can be nice */
 }
 
- .cs-main-image {  
+ .cs-main-image {
 	/* Wrapper for main image. If you float this, thumbs will move to right of main image. */
-	float: left; 
+	float: left;
 	width: auto;
-	margin-right: 6px; 
+	margin-right: 6px;
 	text-align: center;
 }
- .cs-main-image a {  
+ .cs-main-image a {
 	margin: 0;
 }
 
@@ -1104,8 +1110,8 @@ cs.thedesignoffice.org
  .cs-thumbs ul.gallery-item {
 	/* ul around thumbnail. Control spacing of thumbnails here  */
 	margin-left: 0;
-	margin-bottom: 4px;  
-	margin-right: 6px;  
+	margin-bottom: 4px;
+	margin-right: 6px;
 }
 
 .cs-content { margin-top: 10px;}
@@ -1130,22 +1136,22 @@ cs.thedesignoffice.org
 	padding: 2px; /* Adds white around thumbnail   */
 }
 
- .cs-main-caption { 
+ .cs-main-caption {
 	/* Caption field */
 	clear: left;  /* Breaks to line after thumbs */
 }
 
- .cs-main-description {	
+ .cs-main-description {
 	/* Description field */
-	display: none;  
+	display: none;
 }
 
- .cs-current .gallery-caption { 
+ .cs-current .gallery-caption {
 	/* Lightbox Caption field */
-	display: none;  
+	display: none;
 }
 
- .cs-current .gallery-description { 
+ .cs-current .gallery-description {
 	/* Lightbox Description field */
 	color: yellow;
 }
@@ -1154,8 +1160,8 @@ cs.thedesignoffice.org
 -------------------------------------------------------------------------------*/
 /* Printing) ----------- */
 @media only print {
-	#peopleid { display: inline; }	
-	.size3of4 { width: 100%; }	
+	#peopleid { display: inline; }
+	.size3of4 { width: 100%; }
 	.widget, .search, #sidebar1b { display: none; }
 
 }
@@ -1163,8 +1169,8 @@ cs.thedesignoffice.org
 
 /* Desktop in small mode) ----------- */
 @media only screen and (max-width: 1040px) {
-	#peopleid { display: inline; }	
-	.size3of4 { width: 100%; }	
+	#peopleid { display: inline; }
+	.size3of4 { width: 100%; }
 	.widget { display: none; }
 	#sidebar1b { display: none; }
 }
@@ -1185,8 +1191,8 @@ cs.thedesignoffice.org
 		width: 1280px;
 		padding: 12px 6px 0 18px;
 	}
-	#peopleid { display: none; }	
-	.size3of4 { width: 75%; }	
+	#peopleid { display: none; }
+	.size3of4 { width: 75%; }
 	.widget { display: block; }
 	#sidebar1b { display: block }
 }
@@ -1199,7 +1205,7 @@ cs.thedesignoffice.org
 
 @media screen and (min-width: 1425px) {
 .masthead {
-	color: black; text-transform: uppercase; font-weight: bold; border: 0px; font-size: 32px;  margin: 6px 20px 0 0; padding: 0 22px; 
+	color: black; text-transform: uppercase; font-weight: bold; border: 0px; font-size: 32px;  margin: 6px 20px 0 0; padding: 0 22px;
 }
 
 }
